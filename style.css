@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  background-color: #0b0c10;
+  color: #66fcf1;
+  text-align: center;
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1, h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #45a29e;
+  text-shadow: 0 0 10px #45a29e;
+}
+
+button {
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  background-color: #1f2833;
+  border: 2px solid #66fcf1;
+  color: #66fcf1;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a29e;
+  color: #0b0c10;
+}
+
+.hud {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  margin: 10px auto;
+  font-size: 1.1rem;
+}
+
+canvas {
+  border: 3px solid #66fcf1;
+  box-shadow: 0 0 20px #1f2833;
+  background-color: #1f2833;
+}
+
+#finalStats {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+#timerBarContainer {
+  width: 500px;
+  height: 10px;
+  background-color: #333;
+  border: 1px solid #66fcf1;
+  margin: 10px auto;
+}
+
+#timerBar {
+  height: 100%;
+  width: 100%;
+  background-color: #66fcf1;
+  transition: width 1s linear, background-color 0.5s ease;
+}
+
+#difficulty, #lives {
+  margin-left: 10px;
+}

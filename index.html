@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Glitch Maze</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="screen" id="startScreen">
+    <h1>🌀 Glitch Maze</h1>
+    <p>Navigate the maze. Beware of glitching walls. How far can you go?</p>
+    <button id="startBtn">Play Game</button>
+  </div>
+
+  <div class="screen" id="gameScreen" style="display: none;">
+    <div class="hud">
+      <span id="levelIndicator">Level 1</span>
+      <span id="score">Score: 1000</span>
+      <span id="difficulty">Difficulty: Medium</span>
+      <span id="lives">❤️ Lives: 3</span>
+      <button id="pauseBtn">⏸️ Pause</button>
+    </div>
+    <div id="timerBarContainer">
+      <div id="timerBar"></div>
+    </div>
+    <canvas id="gameCanvas" width="500" height="500"></canvas>
+  </div>
+
+  <div class="screen" id="endScreen" style="display: none;">
+    <h2>🏁 Game Over</h2>
+    <p id="finalStats"></p>
+    <button onclick="location.reload()">Play Again</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
