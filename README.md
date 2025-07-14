@@ -29,15 +29,17 @@ AI Collaboration Reflection
 
 ### 1. AI Tools Used & Implementation:
 
-ChatGPT (OpenAI):
-Used for debugging JavaScript issues (pathfinding algorithm, collision detection)
-Generated boilerplate code for canvas rendering
-Suggested game mechanic improvements (power-up system, difficulty scaling)
-GitHub Copilot:
-Assisted with code completions for repetitive tasks (HUD updates, event listeners)
-Helped document code with JSDoc comments
-AI Art Generators: (Optional - if used)
-Created placeholder assets during early development
+#### ChatGPT (OpenAI):
+- Used for debugging JavaScript issues (pathfinding algorithm, collision detection)
+- Generated boilerplate code for canvas rendering
+- Suggested game mechanic improvements (power-up system, difficulty scaling)
+
+
+#### GitHub Copilot:
+- Assisted with code completions for repetitive tasks (HUD updates, event listeners)
+- Helped document code with JSDoc comments
+- AI Art Generators: (Optional - if used)
+- Created placeholder assets during early development
 
 ### 2. What Worked Well:
 
