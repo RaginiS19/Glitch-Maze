@@ -4,7 +4,6 @@
 
 A challenging 2D maze game with glitching walls and a chasing enemy, built with JavaScript, HTML5 Canvas, and CSS.
 
-![Game Screenshot](screenshot.png) *(You can add a screenshot later)*
 
 ## 🎮 How to Play
 
